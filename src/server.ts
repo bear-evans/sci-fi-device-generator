@@ -1,19 +1,17 @@
 import * as express from "express";
-const routes = require("./controllers");
-// import sequelize connection
-const sequelizeConn = require("./config/connection.js");
+const routes = require("./routes");
 
 const app: express.Application = express.default();
 const PORT = process.env.PORT || 3000;
 
+// Middleware
 app.use(express.json());
+app.use(express.static(__dirname + "/public"));
 app.use(express.urlencoded({ extended: true }));
 
+// Register routes
 app.use(routes);
 
-// sync sequelize models to the database, then turn on the server
-sequelizeConn.sync({ force: false }).then(() => {
-  app.listen(PORT, () => {
-    console.log(`App listening on port ${PORT}!`);
-  });
+app.listen(PORT, () => {
+  console.log(`App listening on port ${PORT}!`);
 });

@@ -1,4 +1,4 @@
-const deviceGenerator = function () {
+const deviceGenerator = (function () {
   function init() {
     console.log("Device Generator Initialized");
   }
@@ -6,4 +6,6 @@ const deviceGenerator = function () {
   return {
     init: init,
   };
-};
+})();
+
+deviceGenerator.init();
