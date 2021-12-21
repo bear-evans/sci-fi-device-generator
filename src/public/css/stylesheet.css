@@ -1,0 +1,74 @@
+/* ====================================
+Imports and Variables
+==================================== */
+@import url("https://fonts.googleapis.com/css2?family=Iceberg&family=Lexend+Tera:wght@300&display=swap");
+
+/* ====================================
+General Display CSS
+==================================== */
+body {
+  background-image: url("../images/generator-background.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#generator-box {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  max-width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+  padding: 5em;
+}
+
+#device {
+  color: orange;
+  text-align: center;
+  font-family: "Iceberg", cursive;
+  font-size: xx-large;
+  padding: 2em;
+}
+
+#device-button {
+  background-color: rgb(61, 67, 73);
+  color: orange;
+  border: 1px solid aquamarine;
+  border-radius: 5px;
+  padding: 1em;
+  font-family: "Lexend Tera", sans-serif;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 5px aqua;
+}
+
+#device-button:hover {
+  background-color: lightgray;
+  color: black;
+  box-shadow: 0 5px 15px orange;
+}
+
+#generator {
+  text-align: center;
+  margin-top: 3em;
+}
+/* ====================================
+Typographic CSS
+==================================== */
+h1 {
+  color: aquamarine;
+  text-align: center;
+  font-family: "Lexend Tera", sans-serif;
+}
+
+/* ====================================
+Footer CSS
+==================================== */
+#copyright-footer {
+  color: black;
+  font-size: xx-small;
+  text-align: center;
+}
+
+#copyright-footer a {
+  color: orange;
+}
