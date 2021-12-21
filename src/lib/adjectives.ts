@@ -8,4 +8,10 @@ const adjectives = [
   "Relative",
 ];
 
-module.exports = adjectives;
+export function getAdjective() {
+  let num: number = Math.floor(Math.random() * adjectives.length);
+
+  return adjectives[num];
+}
+
+module.exports = getAdjective;

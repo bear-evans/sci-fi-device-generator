@@ -12,4 +12,10 @@ const nouns = [
   "Terminal",
 ];
 
-module.exports = nouns;
+export function getNoun() {
+  let num: number = Math.floor(Math.random() * nouns.length);
+
+  return nouns[num];
+}
+
+module.exports = getNoun;
