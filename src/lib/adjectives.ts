@@ -6,6 +6,16 @@ const adjectives = [
   "Superconductive",
   "Semiconductive",
   "Relative",
+  "Cloaking",
+  "Impulse",
+  "Universal",
+  "Positronic",
+  "Photonic",
+  "Electronic",
+  "Quantum",
+  "Holographic",
+  "Emissive",
+  "Condensed",
 ];
 
 export function getAdjective() {

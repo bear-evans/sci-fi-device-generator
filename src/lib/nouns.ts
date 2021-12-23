@@ -10,6 +10,18 @@ const nouns = [
   "Superconductor",
   "Semiconductor",
   "Terminal",
+  "Array",
+  "Probe",
+  "Drive",
+  "Cannon",
+  "Recorder",
+  "Transmitter",
+  "Translator",
+  "Field",
+  "Shield",
+  "Emitter",
+  "Condenser",
+  "Generator"
 ];
 
 export function getNoun() {

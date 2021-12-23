@@ -1,4 +1,17 @@
-const materials = ["Steel", "Unobtanium", "Titanium", "Hard Light", "Plasma"];
+const materials = ["Steel",
+  "Unobtanium",
+  "Titanium",
+  "Hard Light",
+  "Plasma",
+  "Positron",
+  "Electron",
+  "Neutron",
+  "Proton",
+  "Neutrino",
+  "Aluminum",
+  "Condensate",
+  "Adamantium",
+];
 
 export function getMaterial() {
   let num: number = Math.floor(Math.random() * materials.length);
