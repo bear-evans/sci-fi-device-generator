@@ -1,8 +1,9 @@
 const prompts = [
-  "Oh no, the aliens took our...",
-  "The day has been saved by the...",
-  "The solar flare damaged our ...",
-  "The only thing that can stop the robot army is our...",
+  "Oh no, the aliens took our",
+  "The day has been saved by the",
+  "The solar flare damaged our",
+  "The only thing that can stop the robot army is our",
+  "Hurry, we must repair the",
 ];
 
 export function getPrompt() {
