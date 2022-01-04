@@ -34,6 +34,19 @@ const nouns = [
   "Machine",
   "Bot",
   "Droid",
+  "Organizer",
+  "Interpreter",
+  "Observer",
+  "Dispenser",
+  "Projector",
+  "Scanner",
+  "Bridge",
+  "Gate",
+  "Broadcaster",
+  "Radio",
+  "Transciever",
+  "Ansible",
+  "Gun",
 ];
 
 export function getNoun() {

@@ -23,6 +23,22 @@ const materials = [
   "Gene",
   "Magnet",
   "Field",
+  "Nucleus",
+  "Particle",
+  "Meteor",
+  "Force",
+  "Fire",
+  "Space",
+  "Time",
+  "Spacetime",
+  "Reality",
+  "Universe",
+  "Sound",
+  "Acid",
+  "Pressure",
+  "Vacuum",
+  "Gamma Ray",
+  "X-Ray",
 ];
 
 export function getMaterial() {
