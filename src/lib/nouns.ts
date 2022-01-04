@@ -21,7 +21,19 @@ const nouns = [
   "Shield",
   "Emitter",
   "Condenser",
-  "Generator"
+  "Generator",
+  "Rocket",
+  "Digitizer",
+  "Magnet",
+  "Collector",
+  "Hologram",
+  "Automaton",
+  "Robot",
+  "Drone",
+  "Android",
+  "Machine",
+  "Bot",
+  "Droid",
 ];
 
 export function getNoun() {

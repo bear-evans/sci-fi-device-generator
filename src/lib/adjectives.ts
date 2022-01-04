@@ -16,6 +16,22 @@ const adjectives = [
   "Holographic",
   "Emissive",
   "Condensed",
+  "Wierd",
+  "Amazing",
+  "Strange",
+  "Cosmic",
+  "Animated",
+  "Digital",
+  "Gravitic",
+  "Magnetic",
+  "Electromagnetic",
+  "Cloning",
+  "Stellar",
+  "Lunar",
+  "Terrestrial",
+  "Agglomerating",
+  "Teleoperated",
+  "Remote",
 ];
 
 export function getAdjective() {

@@ -1,4 +1,5 @@
-const materials = ["Steel",
+const materials = [
+  "Steel",
   "Unobtanium",
   "Titanium",
   "Hard Light",
@@ -11,6 +12,10 @@ const materials = ["Steel",
   "Aluminum",
   "Condensate",
   "Adamantium",
+  "Atmosphere",
+  "Star",
+  "Planet",
+  "Void",
 ];
 
 export function getMaterial() {
