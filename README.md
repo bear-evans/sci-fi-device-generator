@@ -42,6 +42,8 @@ from the app's directory.
 
 This will build the typescript files into the dist folder, as well as copy static resources such as CSS and HTML to the dist/public folder.
 
+You can view a live demo [on Heroku](https://bear-device-generator.herokuapp.com/).
+
 ## License
 
 Copyright 2022 Bear Evans
