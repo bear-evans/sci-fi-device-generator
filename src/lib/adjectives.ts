@@ -55,6 +55,8 @@ const adjectives = [
   "Pressurized",
   "Virtual",
   "Unmanned",
+  "Motorized",
+  "Photographic",
 ];
 
 export function getAdjective() {

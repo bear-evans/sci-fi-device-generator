@@ -47,6 +47,20 @@ const nouns = [
   "Transciever",
   "Ansible",
   "Gun",
+  "Instrument",
+  "Tool",
+  "Engine",
+  "Drill",
+  "Motor",
+  "Inhibitor",
+  "Accelerator",
+  "Apparatus",
+  "Appliance",
+  "Computer",
+  "Simulator",
+  "System",
+  "Disk",
+  "Console",
 ];
 
 export function getNoun() {
