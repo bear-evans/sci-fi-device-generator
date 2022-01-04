@@ -32,6 +32,11 @@ const adjectives = [
   "Agglomerating",
   "Teleoperated",
   "Remote",
+  "Dense",
+  "Conceptual",
+  "Theoretical",
+  "Genetic",
+  "Fundamental",
 ];
 
 export function getAdjective() {

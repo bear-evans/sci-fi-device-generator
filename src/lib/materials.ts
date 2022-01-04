@@ -16,6 +16,13 @@ const materials = [
   "Star",
   "Planet",
   "Void",
+  "Matter",
+  "Anti-Matter",
+  "Radiation",
+  "Sequence",
+  "Gene",
+  "Magnet",
+  "Field",
 ];
 
 export function getMaterial() {
